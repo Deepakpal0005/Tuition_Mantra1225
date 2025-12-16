@@ -15,6 +15,7 @@ import {
   Check,
 } from "lucide-react";
 import logo from "/TMLogo.jpg";
+import ContactFormWithOtpWaMe from "./ContactFormWithOtp";
 const TuitionMantraLanding = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeFilter, setActiveFilter] = useState("all");
@@ -784,6 +785,7 @@ const TuitionMantraLanding = () => {
                   </p>
                 )}
               </div>
+              {/* <ContactFormWithOtpWaMe/> */}
             </div>
           </div>
         </div>
