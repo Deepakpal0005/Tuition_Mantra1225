@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Menu,
   X,
@@ -235,6 +236,9 @@ const TuitionMantraLanding = () => {
               >
                 Contact
               </a>
+              <Link to="/digital-marketing" className="text-gray-700 hover:text-blue-600 transition">
+                Digital Marketing
+              </Link>
             </div>
 
             <button
@@ -275,6 +279,9 @@ const TuitionMantraLanding = () => {
               >
                 Courses
               </a>
+              <Link to="/digital-marketing" className="block px-3 py-2 text-gray-700 hover:bg-blue-50 rounded" onClick={() => setMobileMenuOpen(false)}>
+                Digital Marketing
+              </Link>
               <a
                 href="#testimonials"
                 className="block px-3 py-2 text-gray-700 hover:bg-blue-50 rounded"
@@ -829,6 +836,9 @@ const TuitionMantraLanding = () => {
                 >
                   Courses
                 </a>
+                <Link to="/digital-marketing" className="block text-gray-400 hover:text-white transition">
+                  Digital Marketing
+                </Link>
                 <a
                   href="#contact"
                   className="block text-gray-400 hover:text-white transition"

@@ -405,7 +405,7 @@ const DigitalMarketing = () => {
                       )}
                     </div>
                     <a
-                      href={`https://wa.me/919599452301?text=Hi Tuition Mantra, I am interested in your ${item.title} package.`}
+                      href={`https://wa.me/917053184840?text=Hi Tuition Mantra marketing team, I am interested in your ${item.title} package.`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition font-semibold text-center w-full sm:w-auto"
@@ -427,7 +427,7 @@ const DigitalMarketing = () => {
               Startups and corporations often need bespoke, bundled strategies. Let us configure a high-efficiency framework specifically designed for your unique operational volume.
             </p>
             <a
-              href="https://wa.me/919599452301?text=Hi Tuition Mantra, I want to discuss a custom package for Digital Marketing / Web development."
+              href="https://wa.me/917053184840?text=Hi Tuition Mantra, I want to discuss a custom package for Digital Marketing / Web development."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition shadow-lg"
